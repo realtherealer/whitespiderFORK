@@ -73,6 +73,8 @@
 		embed.type = "text/plain";
 		embed.width = "800"
 		embed.height = "600";
+		embed.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+		embed.allowfullscreen="";
 		embed.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=1&rel=0&color=white"
 		results.appendChild(embed);
 	};
@@ -202,6 +204,8 @@
 			embed.width = "800";
 			embed.height = "600";
 			embed.style.display = "none";
+			embed.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+			embed.allowfullscreen="";
 			elem.appendChild(embed);
 
 			iElem.onclick = () => {

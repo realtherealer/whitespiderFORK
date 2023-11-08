@@ -28,7 +28,7 @@
 	await new Promise(r => gapi.load("client", r));
 	await new Promise(r => gapi.client.load("youtube", "v3", r));
 	await gapi.client.init({
-		apiKey: "AIzaSyCSS1Sobpz5lVPYThH94x3Wh8zuR8ev0Fc",
+		apiKey: "AIzaSyAfg_qq5MoQBEPCR2rQ-a0csm4sjY6p8BA",
 		discoveryDocs: [
 			"https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"
 		]
@@ -206,7 +206,8 @@
 
 			iElem.onclick = () => {
 				if (embed.style.display == "none") {
-					embed.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=1&rel=0&color=white";
+					//embed.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=1&rel=0&color=white";
+					embed.src = "https://www.youtu.be/" + id + "/";
 					embed.style.display = "block";
 				} else {
 					embed.src = "about:blank";

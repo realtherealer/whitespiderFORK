@@ -206,8 +206,8 @@
 
 			iElem.onclick = () => {
 				if (embed.style.display == "none") {
-					//embed.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=1&rel=0&color=white";
-					embed.src = "https://www.youtu.be/" + id + "/";
+					embed.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=1&rel=0&color=white";
+					//embed.src = "https://www.youtu.be/" + id + "/";
 					embed.style.display = "block";
 				} else {
 					embed.src = "about:blank";

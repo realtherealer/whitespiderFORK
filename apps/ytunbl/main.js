@@ -201,8 +201,8 @@
 
 			const embed = document.createElement("embed");
 			embed.type = "text/plain";
-			embed.width = "800";
-			embed.height = "600";
+			embed.width = "1920";
+			embed.height = "1080";
 			embed.style.display = "none";
 			embed.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
 			embed.allowfullscreen="";
